@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calc">
+    <div class="screen">
+      <div class="display">
+        <div id="history"></div>
+        <div id="result">0</div>
+      </div>
+    </div>
+    <div class="keys">
+      <button class="key-fn" data-insert="sin(">sin</button>
+      <button class="key-fn" data-insert="cos(">cos</button>
+      <button class="key-fn" data-insert="tan(">tan</button>
+      <button class="key-fn" data-insert="log(">log</button>
+      <button class="key-fn" data-insert="ln(">ln</button>
+
+      <button class="key-fn" data-insert="√(">√</button>
+      <button class="key-fn" data-insert="π">π</button>
+      <button class="key-fn" data-insert="ℯ">e</button>
+      <button class="key-fn" data-insert="^">x^y</button>
+      <button class="key-fn" data-insert="!">x!</button>
+
+      <button class="key-ac" data-action="ac">AC</button>
+      <button class="key-del" data-action="del">DEL</button>
+      <button class="key-eq" data-action="equals">=</button>
+      <button class="key-ops" data-insert="÷">÷</button>
+      <button class="key-ops" data-insert="×">×</button>
+
+      <button data-insert="7">7</button>
+      <button data-insert="8">8</button>
+      <button data-insert="9">9</button>
+      <button class="key-ops" data-insert="-">−</button>
+      <button class="key-ops" data-insert="+">+</button>
+
+      <button data-insert="4">4</button>
+      <button data-insert="5">5</button>
+      <button data-insert="6">6</button>
+      <button data-insert="(">(</button>
+      <button data-insert=")">)</button>
+
+      <button data-insert="1">1</button>
+      <button data-insert="2">2</button>
+      <button data-insert="3">3</button>
+      <button data-insert="0">0</button>
+      <button data-insert=".">.</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
